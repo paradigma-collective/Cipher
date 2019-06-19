@@ -1,27 +1,32 @@
 > Slide 1
 
 ### Roteiro
+
 # Cipher: O que é uma senha forte na prática?
 
-- Apresentação pessoal, agradecimentos.
+Olá você que nos acompanha, eu sou Aragão e esta é a palestra "O que é uma senha forte na prática (interrogação)". Esta foi uma palestra a qual ministrei na CryptoRave 2019 e agora estamos disponbilizando online para dar início a uma série de vídeos entitulada "Cipher" onde abordaremos, ponto a ponto, video a video, técnicas de autodefesa no âmbito digital e a teoria que as fundamentam.
+
+Esta palestra foi baseada em um artigo de mesmo nome que escrevi, cujo link vocês encontram na descrição deste vídeo.
 
 > Slide 2
 
 ### 1. Resumo - 5 min.
 
-Nessa palestra realizaremos uma demonstração de como senhas são comumente armazenadas, para autenticação de usuários em serviços e dispositivos, e como estas senhas podem ser eventualmente descobertas por terceiros. À partir disso, mostraremos como se precaver contra isso no processo de criação de senha e traçaremos algumas conclusões. Finalmente, abriremos espaço para dúvidas e colocações da audiência.
+Para responder a questão posta pelo título desta palestra iremos realizar uma introdução ao tópico da autenticação por senha, para então descrever onde e como senhas são comumente armazenadas, e como estas senhas podem ser eventualmente descobertas por terceiros. À partir disso, mostraremos como se precaver contra isso no processo de criação de senha e traçaremos algumas conclusões.
 
 > Slide 3
 
 ### 2. Apresentação do coletivo - 5 min.
 
-Mas antes, gostaria de apresentar brevemente o coletivo do qual faço parte: o Paradigma. Em suma, um coletivo hacker dedicado à pesquisa, desenvolvimento e aplicação de técnicas e tecnologias diversas para o fim de construir uma sociedade mais justa.
+Mas antes de começar, gostaria de apresentar brevemente o coletivo do qual faço parte: o Paradigma. Em suma, um coletivo hacker dedicado à pesquisa, desenvolvimento e aplicação de técnicas e tecnologias diversas para o fim de construir uma sociedade mais justa.
 
 > Slide 4
 
 Fazemos isso organizando encontros abertos, regulares, buscando nos desenvolver no uso de ferramentas de software livre e segurança da informação de maneira colaborativa, para então compartilhar este conhecimento adiquirido em documentação, oficinas, novas ferramentas, e palestras, como esta.
 
-Este é um coletivo formado recentemente, fundado inclusive entre participantes deste evento. Então, estejam convidados à participar em nossos encontros.
+Para participar no nosso coletivo ou nossos encontros, vocês encontrarão todas as informações de contato disponíveis na descrição deste vídeo.
+
+Agora, sem mais delongas.
 
 > Slide 5
 
@@ -252,7 +257,7 @@ Portanto, Reinhold sugere um método de criação de senhas que utiliza **real a
 Então jogamos os dados e lemos os resultados em um mesmo sentido, como da esquerda para a direita e de cima para baixo. Suponhamos que tiremos o resultado "2,4,3,4,1"
 
 ```
-> bat -p /dev/random | tr -dc '[1-6]' | fold -w 5 | head -1
+> cat /dev/random | tr -dc '1-6' | fold -w 5 | head -1
 24341
 > grep 23615 7776palavras-numeradas-2e.txt
 23615 cone
@@ -260,15 +265,13 @@ Então jogamos os dados e lemos os resultados em um mesmo sentido, como da esque
 Assim, obtemos o resultado "cone". Repetindo este processo pelo menos mais seis vezes, conforme a recomendação de Reinhold, obtemos a seguinte frase:
 
 ```
-> begin
-    set -l passphrase
-    while test (count $passphrase) -ne 6
-      set -l dice (bat -p /dev/random | tr -dc '[1-6]' | fold -w 5 | head -1)
-      set -a passphrase (grep -oP "(?<=$dice ).+" 7776palavras-numeradas-2e.txt 2>/dev/null)
-    end
-    echo $passphrase
-end
-fortuna carona estupor acabado berro inovar
+> grep {-e }(bat -p /dev/random | tr -dc '1-6' | fold -w 5 | head -6) 7776palavras-numeradas-2e.txt
+34266 fortuna
+21555 carona
+32341 estupor
+11236 acabado
+15515 berro
+41241 inovar
 ```
 
 Reinhold sugere que façamos este procedimento em um espaço reservado, com cortinas fechadas, e anotemos o resultado num pedaço de papel sobre uma superfície rígida. Enquanto não memorizarmos a senha em questão, carregamos este papel conosco. Depois, o queimamos e pulverizamos suas cinzas.
@@ -357,23 +360,23 @@ Podemos concluir, portanto, que:
 
 > Slide 37
 
-- Como método de autenticação, senhas são prevalentes e ainda serão por mais algum tempo.
+1. Como método de autenticação, senhas são prevalentes e ainda serão por mais algum tempo.
 
 > Slide 38
 
-- Uma maneira eficiente e massiva para um adversário obter senhas de terceiros é conseguindo acesso a servidores onde estes usuários possuem contas e extrair uma cópia das hashes que correspondem à suas senhas.
+2. Uma maneira eficiente e massiva para um adversário obter senhas de terceiros é conseguindo acesso a servidores onde estes usuários possuem contas e extrair uma cópia das hashes que correspondem à suas senhas.
 
 > Slide 39
 
-- Essas hashes são então submetidas à sucessivas adivinhações que, dependendo do poder computacional do adversário, vão de centenas de milhões à centenas de bilhões por segundo. Estes ataques são geralmente informados por meio de dicionários a testar primeiramente as combinações mais relevantes.
+3. Essas hashes são então submetidas à sucessivas adivinhações que, dependendo do poder computacional do adversário, vão de centenas de milhões à centenas de bilhões por segundo. Estes ataques são geralmente informados por meio de dicionários a testar primeiramente as combinações mais relevantes.
 
 > Slide 40
 
-- Espontaneamente construir uma senha improvável, mesmo quando informado das combinações mais prováveis, é um método limitado em termos da força resultante da senha, e impraticável para proteger um grande número de pessoas.
+4. Espontaneamente construir uma senha improvável, mesmo quando informado das combinações mais prováveis, é um método limitado em termos da força resultante da senha, e impraticável para proteger um grande número de pessoas.
 
 > Slide 41
 
-- Em contra partida, Diceware é um método de simples utilização e que gera senhas com **real aleatoriedade**, a senha resultante é tão aleatória que a este tempo desconhecemos computadores que, mesmo informados do método, sequer possuem a capacidade de percorrer um número relevante de possibilidades em um período de tempo razoável.
+5. Em contra partida, Diceware é um método de simples utilização e que gera senhas com **real aleatoriedade**, a senha resultante é tão aleatória que a este tempo desconhecemos computadores que, mesmo informados do método, sequer possuem a capacidade de percorrer um número relevante de possibilidades em um período de tempo razoável.
 
 > Slide 42
 

@@ -16,25 +16,27 @@
 
 ### [5. Navegadores](#navegadores)
 
-### [6. Clientes de Email](#clientes-de-email)
+### [6. Servidores de Email](#servidores-de-email)
 
-### [7. PGP](#pgp)
+### [7. Clientes de Email](#clientes-de-email)
 
-### [8. Metadata](#metadata)
+### [8. PGP](#pgp)
 
-### [9. Envio de arquivos](#envio-de-arquivos)
+### [9. Metadata](#metadata)
 
-### [10. Mapas](#mapas)
+### [10. Envio de arquivos](#envio-de-arquivos)
 
-### [11. VPNs](#vpns)
+### [11. Mapas](#mapas)
 
-### [12. Firewalls](#firewalls)
+### [12. VPNs](#vpns)
 
-### [13. Sistemas Operacionais](#sistemas-operacionais)
+### [13. Firewalls](#firewalls)
 
-### [14. Outros](#outros)
+### [14. Sistemas Operacionais](#sistemas-operacionais)
 
-### [15. Guias](#guias)
+### [15. Outros](#outros)
+
+### [16. Guias](#guias)
 
 ## Introdução
 
@@ -88,18 +90,27 @@ Também, para simplificar descrição de compatibilidade dos aplicativos, entend
 
 | Nome | Descrição | Disponível para | Dificuldade |
 | :------------- | :------------- | :------------ | :------------ |
-[Tor Browser](https://www.torproject.org/projects/torbrowser.html.en) | Browser do [Projeto Tor](https://www.torproject.org/) desenvolvido para navegação anônima através da rede tor. | Android, Desktop | Fácil
+[Tor Browser](https://www.torproject.org/download/) | Browser do [Projeto Tor](https://www.torproject.org/) desenvolvido para navegação anônima através da rede tor. | Android, Desktop | Fácil
 [Onion Browser](https://onionbrowser.com/) | Adaptação do Tor Browser para utilização no iOS. | iOS | Pendente
 [Brave](https://brave.com/) | Browser com bloqueador de publicidade e rastreadores nativo baseado no [Chromium](https://www.chromium.org/). | Mobile, Desktop | Fácil
 [Firefox Klar](https://f-droid.org/en/packages/org.mozilla.klar/) | Similar ao Brave, mas baseado no [Firefox](https://www.mozilla.org/firefox/). | Mobile | Fácil
+
+## Servidores de email
+
+| Nome | Descrição
+| :------------- | :------------- |
+[Disroot](https://disroot.org/) | Serviço de email hospedado por um coletivo libertário localizado nos Países Baixos
+[Guerrilla Mail](http://www.guerrillamail.com/) | Email temporário e descartável. Hospedado inclusive em um [hidden service](https://grrmailb3fxpjbwm.onion) acessível pela rede tor.
+[Protonmail](https://protonmail.com/) | Cliente de email com criptografia de ponta a ponta entre usuários do serviço. Também disponível através de [hidden service](https://protonirockerxow.onion). Requer que o acesso seja feito pelo webmail ou por um aplicativo mobile específico do Protonmail.
+[RiseUp](https://riseup.net/en/email) | Serviço de email hospedado por um coletivo libertário americano. Para criar uma conta, faz-se necessário que dois usuários do serviço o indiquem para que a abertura de conta aconteça. Isso, ou uma conta pode ser cedida após uma boa avaliação de uma carta de apresentação.
+[Tutanota](https://tutanota.com/) | Tal como o protonmail, mas sem hidden service e também sem exigir apresentar um número de celular ou email anterior para obter um cadastro. Requer que o acesso seja feito pelo webmail ou por um aplicativo mobile específico do Protonmail.
 
 ## Clientes de email
 
 | Nome | Descrição | Disponível para | Dificuldade |
 | :------------- | :------------- | :------------ | :------------ |
-[Guerrilla Mail](http://www.guerrillamail.com/) | Email temporário e descartável. Hospedado inclusive em um [hidden service](https://grrmailb3fxpjbwm.onion) acessível pela rede tor. | Android, Browser | Fácil
-[Protonmail](https://protonmail.com/) | Cliente de email com criptografia de ponta a ponta entre usuários do serviço. Também disponível através de [hidden service](https://protonirockerxow.onion). | Mobile, Browser | Fácil
-[Tutanota](https://tutanota.com/) | Tal como o protonmail, mas sem hidden service e também sem exigir apresentar um número de celular ou email anterior para obter um cadastro. | Mobile, Browser | Fácil
+[K-9 Mail](https://k9mail.github.io/) | Cliente de email com funcionalidades para automatizar a criptografia de emails usando chaves PGP | Android | Médio
+[Thunderbird](https://www.thunderbird.net/en-US/) | O Cliente de email da Mozilla Foundation, possui diversos plugins que extendem suas capacidades, como o Enigmail
 
 ## PGP
 
@@ -121,6 +132,7 @@ Também, para simplificar descrição de compatibilidade dos aplicativos, entend
 | :------------- | :------------- | :------------ | :------------ |
 [Firefox Send](https://send.firefox.com/) | Envio de arquivos privado, temporário e criptografado através dos servidores da Mozilla Foundation. | Browser | Fácil
 [OnionShare](https://onionshare.org/) | Envio de arquivos através de hidden services pela rede tor. | Desktop | Mediana
+[NextCloud](https://nextcloud.com/) | Sincronizador de arquivos. Arquivos podem ser hospedados em qualquer servidor habilitado, como aquele do [Disroot](cloud.disroot.org) | Todos | Fácil
 [TrebleShot](https://f-droid.org/packages/com.genonbeta.TrebleShot/) | Envie arquivos e aplicativos seguramente entre aparelhos na rede local | Android | Fácil
 
 ## Mapas
@@ -135,7 +147,7 @@ Também, para simplificar descrição de compatibilidade dos aplicativos, entend
 | Nome | Descrição| Disponível para | Dificuldade |
 | :------------- | :------------- | :------------ | :------------ |
 [Orbot](https://guardianproject.info/apps/orbot/) | Encaminhe a conexão à internet dos aplicativos através da rede tor. | Android | Fácil
-[Riseup VPN](https://f-droid.org/en/packages/se.leap.riseupvpn/) | Encaminha a conexão à internet do seu sistema operacional através dos servidores VPN da Riseup  | Android | Fácil
+[Riseup VPN](https://riseup.net/en/vpn) | Encaminha a conexão à internet do seu sistema operacional através dos servidores VPN da Riseup  | Desktop, Android | Fácil
 
 ## Firewalls
 
@@ -154,7 +166,6 @@ Também, para simplificar descrição de compatibilidade dos aplicativos, entend
 [Debian](https://www.debian.org/) | O sistema operacional mantido pela Fundação Debian. Composto Inteiramente por software livre senão habilitado doutra forma pelo usuário. | Desktop e USB | Fácil
 [LineageOS for microG](https://lineage.microg.org/) | Um sistema operacional baseado em software livre que faz uso do microG como meio de substituir o funcionamento do Google Play Services | Android | Fácil
 [Parrot](https://www.parrotsec.org/) | Um sistema operacional orientado a testes de segurança baseado no Debian| Desktop e USB | Mediano
-[PureOS](https://www.pureos.net/) | Um sistema operacional baseado no Debian com diversas configurações e softwares orientados à segurança e privacidade pré-instalados. | Desktop e USB | Fácil
 [Qubes](https://www.qubes-os.org/) | Um sistema operacional resistente à adversários orientado à compartimentalização | Desktop | Difícil
 [Tails](https://tails.boum.org/) | Sistema operacional do tipo [Live USB](https://pt.wikipedia.org/wiki/Live_USB) otimizado e equipado com ferramentas de anonimização | USB | Mediano
 
@@ -166,6 +177,7 @@ Também, para simplificar descrição de compatibilidade dos aplicativos, entend
 [Diceware Password Generator](https://github.com/jeffisaak/diceware-pass-gen) | Gerador de senhas baseado na aplicação do método [Diceware](https://en.wikipedia.org/wiki/Diceware) nas [listas de palavras do EFF](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases) | Android | Fácil
 [firejail](https://firejail.wordpress.com) | [Sandbox](https://en.wikipedia.org/wiki/Sandbox_(computer_security)) compatível com diversas aplicações. | Linux | Mediano
 [Veracrypt](https://veracrypt.fr/en) | Criptografia com senha de arquivos e volumes | Desktop | Fácil
+[Umbrella](https://secfirst.org/umbrella/) | Guia e checklist de segurança portátil | Mobile | Fácil
 
 ## Guias
 
