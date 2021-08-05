@@ -1,4 +1,8 @@
-[:flag_us: Read this in english](en_US/README.md)
+❗ **Atenção:** versão de arquivo, esta lista não foi atualizada desde 2019
+
+---
+
+[🇺🇸 Read this in english](en_US/README.md)
 
 ![cipher](visual/banner.png)
 
@@ -6,37 +10,37 @@
 
 ## Sumário
 
-### [1. Introdução](#introdução)
+1. [Introdução](#introdução)
 
-### [2. Appstores](#appstores)
+2. [Lojas de aplicativos](#lojas-de-aplicativos)
 
-### [3. Mensageiros](#mensageiros)
+3. [Mensageiros](#mensageiros)
 
-### [4. Gerenciadores de senhas](#gerenciadores-de-senhas)
+4. [Gerenciadores de senhas](#gerenciadores-de-senhas)
 
-### [5. Navegadores](#navegadores)
+5. [Navegadores](#navegadores)
 
-### [6. Servidores de Email](#servidores-de-email)
+6. [Servidores de Email](#servidores-de-email)
 
-### [7. Clientes de Email](#clientes-de-email)
+7. [Clientes de Email](#clientes-de-email)
 
-### [8. PGP](#pgp)
+8. [*Pretty Good Privacy* (PGP)](#pgp)
 
-### [9. Metadata](#metadata)
+9. [Metadata](#metadata)
 
-### [10. Envio de arquivos](#envio-de-arquivos)
+10. [Envio de arquivos](#envio-de-arquivos)
 
-### [11. Mapas](#mapas)
+11. [Mapas](#mapas)
 
-### [12. VPNs](#vpns)
+12. [*Virtual Private Networks* (VPNs)](#vpns)
 
-### [13. Firewalls](#firewalls)
+13. [Firewalls](#firewalls)
 
-### [14. Sistemas Operacionais](#sistemas-operacionais)
+14. [Sistemas Operacionais](#sistemas-operacionais)
 
-### [15. Outros](#outros)
+15. [Outros](#outros)
 
-### [16. Guias](#guias)
+16. [Guias](#guias)
 
 ## Introdução
 
@@ -60,7 +64,7 @@ Também, para simplificar descrição de compatibilidade dos aplicativos, entend
 
 - **Todos:** Os dispositivos listados acima mais o navegador - ou *Browser*.
 
-## Appstores
+## Lojas de aplicativos
 
 | Nome | Descrição | Disponível para | Dificuldade |
 | :------------- | :------------- | :------------ | :------------ |
@@ -175,7 +179,7 @@ Também, para simplificar descrição de compatibilidade dos aplicativos, entend
 | :------------- | :------------- | :------------ | :------------ |
 [Background Restrictor](https://f-droid.org/packages/com.pavelsikun.runinbackgroundpermissionsetter/) | Restrinja aplicativos de serem executados quando estes não estão abertos. Requer acesso ao root. | Android | Mediano
 [Diceware Password Generator](https://github.com/jeffisaak/diceware-pass-gen) | Gerador de senhas baseado na aplicação do método [Diceware](https://en.wikipedia.org/wiki/Diceware) nas [listas de palavras do EFF](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases) | Android | Fácil
-[firejail](https://firejail.wordpress.com) | [Sandbox](https://en.wikipedia.org/wiki/Sandbox_(computer_security)) compatível com diversas aplicações. | Linux | Mediano
+[Firejail](https://firejail.wordpress.com) | [Sandbox](https://en.wikipedia.org/wiki/Sandbox_(computer_security)) compatível com diversas aplicações. | Linux | Mediano
 [Veracrypt](https://veracrypt.fr/en) | Criptografia com senha de arquivos e volumes | Desktop | Fácil
 [Umbrella](https://secfirst.org/umbrella/) | Guia e checklist de segurança portátil | Mobile | Fácil
 
