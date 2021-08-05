@@ -1,40 +1,44 @@
-[:flag_br: Leia em português](/README.md)
+❗ **Warning:** archival version, this list hasn't been updated since 2019
+
+---
+
+[🇧🇷 Leia em português](/README.md)
 
 ![cipher](visual/banner.png)
 
-[![Contact](https://img.shields.io/badge/contato-blue.svg?style=for-the-badge)](https://gitlab.com/_paradigma/paradigma/wikis/en_US/Contact) [![Wiki](https://img.shields.io/badge/wiki-lightgrey.svg?longCache=true&style=for-the-badge)](https://gitlab.com/_paradigma/cipher/wikis/en_US/home) [![Code of Conduct](https://img.shields.io/badge/c%C3%B3digo%20de%20conduta-red.svg?longCache=true&style=for-the-badge)](https://gitlab.com/_paradigma/paradigma/wikis/en_US/Code-of-Conduct)
+[![Get in touch](https://img.shields.io/badge/get%20in%20touch-blue.svg?style=for-the-badge)](https://gitlab.com/_paradigma/paradigma/wikis/en_US/Contact) [![Wiki](https://img.shields.io/badge/wiki-lightgrey.svg?longCache=true&style=for-the-badge)](https://gitlab.com/_paradigma/cipher/wikis/en_US/home) [![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-red.svg?longCache=true&style=for-the-badge)](https://gitlab.com/_paradigma/paradigma/wikis/en_US/Code-of-Conduct)
 
 ## Summary
 
-### [1. Introduction](#introduction)
+1. [Introduction](#introduction)
 
-### [2. Appstores](#appstores)
+2. [Appstores](#appstores)
 
-### [3. Messengers](#messengers)
+3. [Messengers](#messengers)
 
-### [4. Password managers](#password-managers)
+4. [Password managers](#password-managers)
 
-### [5. Web browsers](#web-browsers)
+5. [Web browsers](#web-browsers)
 
-### [6. Email clients](#email-clients)
+6. [Email clients](#email-clients)
 
-### [7. PGP](#PGP)
+7. [Pretty Good Privacy (PGP)](#PGP)
 
-### [8. Metadata](#metadata)
+8. [Metadata](#metadata)
 
-### [9. File sharing](#file-sharing)
+9. [File sharing](#file-sharing)
 
-### [10. Mapas](#mapas)
+10. [Maps](#maps)
 
-### [11. VPNs](vpns)
+11. [Virtual Private Networks (VPNs)](vpns)
 
-### [12. firewalls](firewalls)
+12. [Firewalls](firewalls)
 
-### [13. Operational Systems](#operational-systems)
+13. [Operational Systems](#operational-systems)
 
-### [14. Others](#others)
+14. [Others](#others)
 
-### [15. Guides](#guides)
+15. [Guides](#guides)
 
 ## Introduction
 
