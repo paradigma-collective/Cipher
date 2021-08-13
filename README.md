@@ -2,11 +2,11 @@
 
 ---
 
-[🇺🇸 Read this in english](en_US/README.md)
+[🇺🇸 Read this in english](en_US)
 
 ![cipher](visual/banner.png)
 
-[![Contato](https://img.shields.io/badge/contato-blue.svg?style=for-the-badge)](https://gitlab.com/_paradigma/paradigma/wikis/pt_BR/Contato) [![Wiki](https://img.shields.io/badge/wiki-lightgrey.svg?longCache=true&style=for-the-badge)](https://gitlab.com/_paradigma/cipher/wikis/home) [![Código de Conduta](https://img.shields.io/badge/c%C3%B3digo%20de%20conduta-red.svg?longCache=true&style=for-the-badge)](https://gitlab.com/_paradigma/paradigma/wikis/pt_BR/C%C3%B3digo-de-Conduta) [![Programação](https://img.shields.io/badge/-programa%C3%A7%C3%A3o-green.svg?longCache=true&style=for-the-badge)](https://pad.riseup.net/p/cipher)
+[![Wiki](https://img.shields.io/badge/wiki-lightgrey.svg?longCache=true&style=for-the-badge)](https://git.disroot.org/Paradigma/Cipher/wiki) [![Código de Conduta](https://img.shields.io/badge/c%C3%B3digo%20de%20conduta-red.svg?longCache=true&style=for-the-badge)](https://git.disroot.org/Paradigma/Paradigma/wiki/pt_BR%2FC%C3%B3digo-de-Conduta) [![Programação](https://img.shields.io/badge/-programa%C3%A7%C3%A3o-green.svg?longCache=true&style=for-the-badge)](https://pad.riseup.net/p/cipher)
 
 ## Sumário
 
@@ -44,7 +44,7 @@
 
 ## Introdução
 
-Este é o repositório de recursos utilizados no grupo de estudos **cipher**. Para saber mais à respeito desta, como participar ou contribuir nela, consulte a página à respeito desta em nosso [Wiki](https://gitlab.com/_paradigma/cipher/wikis/home) ou venha bater um papo conosco no [Riot](https://riot.im/app/#/room/!mTftlNrhXDxQHwFvET:matrix.org).
+Este é o repositório de recursos utilizados no grupo de estudos **cipher**. Para saber mais à respeito desta, como participar ou contribuir nela, consulte a página à respeito desta em nosso [Wiki](https://git.disroot.org/Paradigma/Cipher/wiki) ou venha bater um papo conosco no [Riot](https://riot.im/app/#/room/!mTftlNrhXDxQHwFvET:matrix.org).
 
 As ferramentas estão listadas primeiramente por ordem de prioridade e depois por aquilo que julgamos ser a *dificuldade em seu manuseio*. Isto é:
 
@@ -76,11 +76,11 @@ Também, para simplificar descrição de compatibilidade dos aplicativos, entend
 
 | Nome | Descrição | Auditoria | Análise | Disponível para | Dificuldade |
 | :------------- | :------------- | :------------ | :------------ | :------------ | :------------ |
-[Signal](https://www.signal.org/) | O aplicativo de comunicação segura endossado pela [Freedom of the Press Foundation](https://freedom.press/). | [Link](https://eprint.iacr.org/2016/1013.pdf) | [Link](https://gitlab.com/_paradigma/cipher/wikis/an%C3%A1lises/im/signal) | Mobile e Desktop | Fácil à Mediana
-[Wire](https://wire.com) | Aplicativo de comunicação segura com muitas funcionalidades e fácil de usar. | [Link](https://wire.com/en/security/#audits) | [Link](https://gitlab.com/_paradigma/cipher/wikis/an%C3%A1lises/im/wire) | Todos | Fácil
-[Ricochet](https://ricochet.im/) | Comunicação criptografada de ponta a ponta pela rede tor, sem servidores intermediários dedicados. | [Link](https://github.com/ricochet-im/ricochet/wiki/NCC-Audit-Results-%5BWIP%5D) | [Link](https://gitlab.com/_paradigma/cipher/wikis/an%C3%A1lises/im/ricochet) | Desktop | Fácil
-[Briar](https://briarproject.org) | Tal como o Ricochet, mas também permitindo a comunicação através de redes locais e bluetooth. | [Link](https://briarproject.org/news/2017-beta-released-security-audit.html) | [Link](https://gitlab.com/_paradigma/cipher/wikis/an%C3%A1lises/im/briar) | Android | Fácil
-[Riot](https://about.riot.im/) | Um aplicativo rico em funcionalidades baseado na rede de comunicação federada [matrix](https://matrix.org/blog/home/). | [Link](https://about.riot.im/security/) | [Link](https://gitlab.com/_paradigma/cipher/wikis/an%C3%A1lises/im/riot) | Todos | Mediana à Difícil
+[Signal](https://www.signal.org/) | O aplicativo de comunicação segura endossado pela [Freedom of the Press Foundation](https://freedom.press/). | [Link](https://eprint.iacr.org/2016/1013.pdf) | [Link](https://git.disroot.org/Paradigma/Cipher/wiki/An%C3%A1lises%2Fim%2FSignal) | Mobile e Desktop | Fácil à Mediana
+[Wire](https://wire.com) | Aplicativo de comunicação segura com muitas funcionalidades e fácil de usar. | [Link](https://wire.com/en/security/#audits) | [Link](https://git.disroot.org/Paradigma/Cipher/wiki/An%C3%A1lises%2Fim%2FWire) | Todos | Fácil
+[Ricochet](https://ricochet.im/) | Comunicação criptografada de ponta a ponta pela rede tor, sem servidores intermediários dedicados. | [Link](https://github.com/ricochet-im/ricochet/wiki/NCC-Audit-Results-%5BWIP%5D) | [Link](https://git.disroot.org/Paradigma/Cipher/wiki/An%C3%A1lises%2Fim%2FRicochet) | Desktop | Fácil
+[Briar](https://briarproject.org) | Tal como o Ricochet, mas também permitindo a comunicação através de redes locais e bluetooth. | [Link](https://briarproject.org/news/2017-beta-released-security-audit.html) | [Link](https://git.disroot.org/Paradigma/Cipher/wiki/An%C3%A1lises%2Fim%2FBriar) | Android | Fácil
+[Riot](https://about.riot.im/) | Um aplicativo rico em funcionalidades baseado na rede de comunicação federada [matrix](https://matrix.org/blog/home/). | [Link](https://about.riot.im/security/) | [Link](https://git.disroot.org/Paradigma/Cipher/wiki/An%C3%A1lises%2Fim%2FRiot) | Todos | Mediana à Difícil
 
 ## Gerenciadores de Senhas
 
@@ -187,9 +187,9 @@ Também, para simplificar descrição de compatibilidade dos aplicativos, entend
 
 | Nome | Espelhos |
 | :------------- | :------------- |
-**[Autodefesa Contra Vigilância](https://ssd.eff.org/pt-br)** | **[Wayback Machine](https://web.archive.org/web/20181228030906/https://ssd.eff.org/pt-br)**
-**[Guia de Autodefesa Digital](https://autodefesa.org)** | **[Wayback Machine](https://web.archive.org/web/20190118202442/https://guia.autodefesa.org/)**, **[Hidden Service](http://6ndqukkrjs2k26ron4omfhp4f3utlugchtagd7hdycvwgbbckqottxyd.onion/)**
-**[LevelUP](https://level-up.cc/)** | **[Wayback Machine](https://web.archive.org/web/20181223161635/https://level-up.cc/)**
-**[The Crypto Pary Handbook](https://www.cryptoparty.in/learn/handbook)** | **[Wayback Machine](https://web.archive.org/web/20170824044558/https://www.cryptoparty.in/learn/handbook)**, **[Hidden Service](http://crypty22ijtotell.onion/handbook/)**
+[Autodefesa Contra Vigilância](https://ssd.eff.org/pt-br) | [Wayback Machine](https://web.archive.org/web/20181228030906/https://ssd.eff.org/pt-br)
+[Guia de Autodefesa Digital](https://autodefesa.org) | [Wayback Machine](https://web.archive.org/web/20190118202442/https://guia.autodefesa.org/), [Hidden Service](http://6ndqukkrjs2k26ron4omfhp4f3utlugchtagd7hdycvwgbbckqottxyd.onion/)
+[LevelUP](https://level-up.cc/) | [Wayback Machine](https://web.archive.org/web/20181223161635/https://level-up.cc/)
+[The Crypto Pary Handbook](https://www.cryptoparty.in/learn/handbook) | [Wayback Machine](https://web.archive.org/web/20170824044558/https://www.cryptoparty.in/learn/handbook), [Hidden Service](http://crypty22ijtotell.onion/handbook/)
 
 **[⬆ retornar ao topo](#sumário)**
